@@ -1,9 +1,18 @@
+<!DOCTYPE html>
 <html>
-<head>Javascript Events</head>
-</br>
+<head>
+    <title>Javascript Events</title>
+</head>
 <body onload="window.alert('Page successfully loaded');">
-<script>
-document.write("The page is loaded successfully");
-</script>
+    <p>The page is loaded successfully</p>
+
+    <button onclick="ss()"> OnLoad </button>
+
+    <script>
+        function ss() {
+            window.alert('Page successfully loaded');
+            document.write("The page is loaded successfully");
+        }
+    </script>
 </body>
-</html> 
+</html>
